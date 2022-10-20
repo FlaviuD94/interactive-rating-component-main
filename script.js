@@ -18,7 +18,6 @@ rateBtns.forEach((el) =>
 function submit() {
   rateView.style.display = "none";
   thankyouView.style.display = "flex";
-  console.log(selectedRate);
 }
 
 submitBtn.addEventListener("click", submit);
